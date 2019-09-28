@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n_tugas,n_uts,n_uas,rata;
+    n_tugas = 90;
+    n_uts = 90;
+    n_uas = 90;
+    
+    cout << "Data nilai mahasiswa\n";
+    
+    
+    cout << "nilai tugas: " << n_tugas<<'\n';
+    cout << "nilai ujian tengah semester : " << n_uts<<'\n';
+    cout << "nilai ujian akhir semester : " << n_uas<<'\n';
+    rata = ( n_tugas + n_uts + n_uas) ;
+    cout <<"\n";
+    cout << "nilai rata-rata : "<< rata ;
+    
+
+return 0;
+}
