@@ -9,6 +9,6 @@ int main() {
     kecepatan = jarak / waktu;
     
     
-    cout << "Kecepatan kendaraan amir adalah" << kecepatan << "km/jam";
-       return 0;
+    cout << " Kecepatan kendaraan amir adalah " << kecepatan << " km/jam ";
+    return 0;
 }
