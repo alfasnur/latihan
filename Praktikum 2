@@ -1,0 +1,22 @@
+#include <conio.h>
+
+
+{
+    int main ();
+    
+        int salesman;
+        int penjualan;
+        int komisi;
+    
+        cout <<"masukkan nama salesman:\n";
+        cin >> salesman ;
+        cout <<"masukkan nilai penjualan bulanan:\n";
+        cin >> penjualan ;
+        
+        komisi= 0.05*penjualan;
+        
+        cout <<"nilai komisi yang didapat:\n";
+        cout <<"nilai salesman:\n";
+        cout <<"nilai penjualan bulanan:\n";
+        cout << "komisi:\n";
+    }
