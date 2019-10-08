@@ -3,15 +3,21 @@ using namespace std;
 
     int main ()
     {
-        int nama,umur;
+        int umur;
+        char nama [10];
         
+        cout << " masukkan nama anda : ";
+        cin >> nama ;
         cout << " masukkan umur anda :";
         cin >> umur ;
+        cout << "Nama : " << nama <<endl;
+        cout << "Umur : " << umur << " tahun" <<endl;
+        
         
         if (umur >= 17 ){
-            cout << " selamat alfas nur faizi "<< umur << " telah diterima di universitas paramadina ";
+            cout << " selamat " << nama << " telah diterima di universitas paramadina ";
+        
         }else{
-            cout<<" maaf anda belum diterima di universitas paramadina ";
+            cout<<" maaf " << nama << " belum diterima di universitas paramadina ";
     }
         return 0;
-}
