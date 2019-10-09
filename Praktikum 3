@@ -1,3 +1,4 @@
+  
 #include <iostream>
 using namespace std;
 
@@ -8,7 +9,7 @@ using namespace std;
         
         cout << " masukkan nama anda : ";
         cin >> nama ;
-        cout << " masukkan umur anda :";
+        cout << " masukkan umur anda : ";
         cin >> umur ;
         cout << "Nama : " << nama <<endl;
         cout << "Umur : " << umur << " tahun" <<endl;
@@ -17,7 +18,12 @@ using namespace std;
         if (umur >= 17 ){
             cout << " selamat " << nama << " telah diterima di universitas paramadina ";
         
-        }else{
+        }
+        else
+        {
             cout<<" maaf " << nama << " belum diterima di universitas paramadina ";
-    }
+        }
+            
         return 0;
+        
+    }
