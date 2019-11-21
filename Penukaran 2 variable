@@ -1,0 +1,25 @@
+// Example program
+#include <iostream>
+
+using namespace std;
+
+void penukaran (int a, int b);
+
+void penukaran (int a, int b){
+    int c;
+    c = a;
+    a = b;
+    b = c;
+    cout << "variable a = " << a << " variable b = " << b;
+    
+    }
+    
+    int main () {
+        int a, b ;
+        cout << "variable a = " ;
+        cin >> a;
+        cout << "variable b = " ;
+        cin >> b;
+        cout << "variable a = " << a << " variable b = " << b << endl;
+        penukaran (a,b);
+    }
